@@ -121,7 +121,7 @@
         })
         },
         updated () {
-            tinymce.get(this.id).setContent(this.value);
+            // tinymce.get(this.id).setContent(this.value);
         },
         destroyed () {
             tinymce.get(this.id).destroy();
